@@ -2,7 +2,7 @@ name: Build C++
 
 on:
   push:
-    branches: [ ci/cd ]
+    branches: "**" 
   pull_request:
     branches: [ main ]
 
